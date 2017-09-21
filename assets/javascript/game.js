@@ -47,7 +47,7 @@ alert ("You lose!");
   reset()
 }
 //Crystal Click
-  $('#one').on ('click', function(){
+  $('#blue').on ('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
@@ -59,7 +59,7 @@ alert ("You lose!");
           loser();
         }   
   })  
-  $('#two').on ('click', function(){
+  $('#blue2').on ('click', function(){
     userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
@@ -70,7 +70,7 @@ alert ("You lose!");
           loss();
         } 
   })  
-  $('#three').on ('click', function(){
+  $('#white').on ('click', function(){
     userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal);
@@ -82,7 +82,7 @@ alert ("You lose!");
           loser();
         } 
   })  
-  $('#four').on ('click', function(){
+  $('#purple').on ('click', function(){
     userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
