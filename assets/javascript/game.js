@@ -53,10 +53,10 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal); 
           
         if (userTotal == Random){
-          yay();
+          win();
         }
         else if ( userTotal > Random){
-          loser();
+          loss();
         }   
   })  
   $('#blue2').on ('click', function(){
@@ -76,10 +76,10 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal);
 
           if (userTotal == Random){
-          yay();
+          win();
         }
         else if ( userTotal > Random){
-          loser();
+          loss();
         } 
   })  
   $('#purple').on ('click', function(){
