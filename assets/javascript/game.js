@@ -34,10 +34,11 @@ function reset(){
       } 
 //adds the wins to the userTotal
 function win(){
-alert("V good");
   wins++; 
-  $('#numberWins').text(wins);
+  alert("V good");
   reset();
+  $('#numberWins').text(wins);
+ 
 }
 //addes the losses to the userTotal
 function loss(){
@@ -48,7 +49,7 @@ alert ("You lose!");
 }
 //Crystal Click
   $('#blue').on ('click', function(){
-    userTotal = userTotal + num1;
+    userTotal = userTotal + blue;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
           
@@ -60,7 +61,7 @@ alert ("You lose!");
         }   
   })  
   $('#blue2').on ('click', function(){
-    userTotal = userTotal + num2;
+    userTotal = userTotal + blue2;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
@@ -71,7 +72,7 @@ alert ("You lose!");
         } 
   })  
   $('#white').on ('click', function(){
-    userTotal = userTotal + num3;
+    userTotal = userTotal + white;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal);
 
@@ -83,7 +84,7 @@ alert ("You lose!");
         } 
   })  
   $('#purple').on ('click', function(){
-    userTotal = userTotal + num4;
+    userTotal = userTotal + purple;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
       
