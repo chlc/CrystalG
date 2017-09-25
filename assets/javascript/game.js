@@ -25,10 +25,10 @@ function reset(){
       Random=Math.floor(Math.random()*101+19);
       console.log(Random)
       $('#randomNumber').text(Random);
-      num1= Math.floor(Math.random()*11+1);
-      num2= Math.floor(Math.random()*11+1);
-      num3= Math.floor(Math.random()*11+1);
-      num4= Math.floor(Math.random()*11+1);
+      blue= Math.floor(Math.random()*11+1);
+      blue2= Math.floor(Math.random()*11+1);
+      white= Math.floor(Math.random()*11+1);
+      purple= Math.floor(Math.random()*11+1);
       userTotal= 0;
       $('#finalTotal').text(userTotal);
       } 
