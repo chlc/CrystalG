@@ -42,10 +42,11 @@ function win(){
 }
 //addes the losses to the userTotal
 function loss(){
-alert ("You lose!");
   losses++;
+  alert ("You lose!");
+  reset();
   $('#numberLosses').text(losses);
-  reset()
+  
 }
 //Crystal Click
   $('#blue').on ('click', function(){
