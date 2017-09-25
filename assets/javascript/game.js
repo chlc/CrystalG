@@ -1,6 +1,7 @@
 
 $( document ).ready(function(){
   var Random=Math.floor(Math.random()*120+19)
+  console.log("The computer chose " + random);
   // Selects a random number to be shown at the start of the game
   // Number should be should be between 19 - 120
   //
@@ -25,10 +26,12 @@ function reset(){
       Random=Math.floor(Math.random()*120+19);
       console.log(Random)
       $('#randomNumber').text(Random);
+
       blue= Math.floor(Math.random()*12+1);
       blue2= Math.floor(Math.random()*12+1);
       white= Math.floor(Math.random()*12+1);
       purple= Math.floor(Math.random()*12+1);
+
       userTotal= 0;
       $('#finalTotal').text(userTotal);
       } 
