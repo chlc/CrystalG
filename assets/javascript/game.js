@@ -7,10 +7,10 @@ $( document ).ready(function(){
   $('#randomNumber').text(Random);
   // Appending random number to the randomNumber id in the html doc
   //
-  var num1= Math.floor(Math.random()*11+1)
-  var num2= Math.floor(Math.random()*11+1)
-  var num3= Math.floor(Math.random()*11+1)
-  var num4= Math.floor(Math.random()*11+1)
+  blue= Math.floor(Math.random()*11+1)
+  blue2= Math.floor(Math.random()*11+1)
+  white= Math.floor(Math.random()*11+1)
+  purple= Math.floor(Math.random()*11+1)
   // Setting up random numbers for each jewel
   // Random number has to be between 1 - 12
   // 
