@@ -25,10 +25,10 @@ function reset(){
       Random=Math.floor(Math.random()*101+19);
       console.log(Random)
       $('#randomNumber').text(Random);
-      number1= Math.floor(Math.random()*11+1);
-      number2= Math.floor(Math.random()*11+1);
-      number3= Math.floor(Math.random()*11+1);
-      number4= Math.floor(Math.random()*11+1);
+      num1= Math.floor(Math.random()*11+1);
+      num2= Math.floor(Math.random()*11+1);
+      num3= Math.floor(Math.random()*11+1);
+      num4= Math.floor(Math.random()*11+1);
       userTotal= 0;
       $('#finalTotal').text(userTotal);
       } 
@@ -47,8 +47,8 @@ alert ("You lose!");
   reset()
 }
 //Crystal Click
-  $('.blue').on ('click', function(){
-    userTotal = userTotal + number1;
+  $('#blue').on ('click', function(){
+    userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
           
@@ -59,8 +59,8 @@ alert ("You lose!");
           loss();
         }   
   })  
-  $('.blue2').on ('click', function(){
-    userTotal = userTotal + number2;
+  $('#blue2').on ('click', function(){
+    userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
@@ -70,8 +70,8 @@ alert ("You lose!");
           loss();
         } 
   })  
-  $('.white').on ('click', function(){
-    userTotal = userTotal + number3;
+  $('#white').on ('click', function(){
+    userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal);
 
@@ -82,8 +82,8 @@ alert ("You lose!");
           loss();
         } 
   })  
-  $('.purple').on ('click', function(){
-    userTotal = userTotal + number4;
+  $('#purple').on ('click', function(){
+    userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
       
