@@ -95,5 +95,5 @@ function loss(){
         else if ( userTotal > Random){
           loss();
         }
-  });   
-}); 
+  })   
+})
