@@ -5,7 +5,7 @@ $( document ).ready(function(){
   // Selects a random number to be shown at the start of the game
   // Number should be should be between 19 - 120
   //
-  $('#randomNumber').text(Random);
+  $('#randomNumber').text(random);
   // Appending random number to the randomNumber id in the html doc
   //
   var blue= Math.floor(Math.random()*12+1)
@@ -24,7 +24,7 @@ $('#numberLosses').text(losses);
 //Reset
 function reset(){
       Random=Math.floor(Math.random()*120+19);
-      console.log(Random)
+      console.log(random)
       $('#randomNumber').text(Random);
 
       blue= Math.floor(Math.random()*12+1);
